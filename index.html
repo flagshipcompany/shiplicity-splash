@@ -21,7 +21,7 @@
         /* Individual columns */
         .column {
             flex: 50%; /* Each column takes up 50% of the width */
-            padding: 3EM; /* Padding around the content */
+            padding: 3em 3em 1.9em 3em;
             box-sizing: border-box; /* Includes padding in width calculation */
         }
 
@@ -45,6 +45,10 @@
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 0px;
+        }
+        textarea::placeholder {
+            font-family: "proxima-nova", sans-serif;
+            font-size: 0.88em;
         }
         textarea {
             resize: vertical; /* Allows vertical resizing only */
@@ -99,11 +103,12 @@
             margin-bottom: 32px;
         }
         .submit-button {
-            font-family: 'Arial Black';
-            padding: 1em 2em;
+            font-size: 0.9em;
+            padding: 1.1em 2.3em;
             background-color: #BEEE62;
             border: none;
             color: #185BCF; /* Pantone 2388*/
+            font-weight: 900;
         }
     </style>
 </head>
@@ -115,7 +120,7 @@
             <div class="green-bar"></div>
             <div class="coming-soon">Coming soon:</div>
             <div class="dark-blue-subtitle font-black">The simple way to ship</div>
-            <div class="font-light">Get ready to say goodbye to shipping stress, and hellow to a new way to ship and save! Shiplicity is launching here soon, so please check back for updates.</div>
+            <div class="font-light">Get ready to say goodbye to shipping stress, and hello to a new way to ship and save! Shiplicity is launching here soon, so please check back for updates.</div>
         </div>
         <div class="column bg-main text-white">
             <div><h2 class="font-black">Can't wait?</h2></div>
@@ -135,7 +140,7 @@
                     </div>
             
                     <div class="form-group">
-                        <textarea id="message" name="message" rows="4" placeholder="Leave us a message or ask a question" required></textarea>
+                        <textarea id="message" name="message" rows="4" placeholder="Leave us a message or ask a question." required></textarea>
                     </div>
             
                     <div class="text-right">
