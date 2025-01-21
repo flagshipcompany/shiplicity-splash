@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you - Shiplicity</title>
+    <link rel="stylesheet" href="https://use.typekit.net/nya1tfz.css">
+    <style>
+        /* Container for the columns */
+        .responsive-two-columns {
+            max-width: 1080px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
+        }
+
+        .shiplicity-logo {
+            width: 60%;
+        }
+
+        /* Individual columns */
+        .column {
+            flex: 100%; /* Each column takes up 50% of the width */
+            padding: 3em 3em 1.9em 3em;
+            box-sizing: border-box; /* Includes padding in width calculation */
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .column {
+                flex: 100%; /* Stacks columns on top of each other on small screens */
+            }
+        }
+
+        form {
+            margin-top: 32px;
+        }
+        .form-group {
+            margin-bottom: 24px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 0px;
+        }
+        textarea::placeholder {
+            font-family: "proxima-nova", sans-serif;
+            font-size: 0.88em;
+        }
+        textarea {
+            resize: vertical; /* Allows vertical resizing only */
+        }
+        .text-right {
+            text-align: right; /* Aligns the button to the right */
+        }
+
+        body {
+            background-color: white;
+            font-family: "proxima-nova", sans-serif;
+            font-size: 18px;
+            padding-bottom: 50px;
+        }
+        .bg-main {
+            background-color: #185BCF; /* Pantone 2388*/
+        }
+        .text-white {
+            color: white;
+        }
+        .font-regular {
+            font-weight: 300;
+        }
+        .font-bold {
+            font-weight: 600;
+        }
+        .font-black {
+            font-weight: bolder;
+            font-size: 2em;
+        }
+        .font-light {
+            font-family: "proxima-nova", sans-serif;
+            font-weight: 200;
+            line-height: 1.4;
+            letter-spacing: 0.09em;
+        }
+        .coming-soon {
+            font-size: 3em;
+            color: #00A7E0;
+            font-weight: bolder;
+        }
+        .dark-blue-subtitle {
+            color: #185BCF;
+            margin-bottom: 18px;
+        }
+
+        .green-bar {
+            height: 7px;
+            width: 95%;
+            background-color: #A5F8D3;
+            margin-top: 32px;
+            margin-bottom: 32px;
+        }
+        .submit-button {
+            font-size: 0.9em;
+            padding: 1.1em 2.3em;
+            background-color: #BEEE62;
+            border: none;
+            color: #185BCF; /* Pantone 2388*/
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <div class="responsive-two-columns">
+        <div class="column">
+            <div></div>
+            <img src="Shiplicity-Logo-Final_RGB.svg" class="shiplicity-logo">
+            <div class="green-bar"></div>
+            <div class="coming-soon">Thank you for contacting us.</div>
+            <div class="dark-blue-subtitle font-black">The simple way to ship</div>
+            <div class="font-light">Get ready to say goodbye to shipping stress, and hello to a new way to ship and save! Shiplicity is launching here soon, so please check back for updates.</div>
+        </div>
+    </div>
+</body>
+</html>
